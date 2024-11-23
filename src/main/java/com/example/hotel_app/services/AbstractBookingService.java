@@ -1,7 +1,7 @@
 package com.example.hotel_app.services;
 
-import com.example.hotel_app.DTO.BookingDtoReading;
-import com.example.hotel_app.DTO.BookingDtoWriter;
+import com.example.hotel_app.dto.BookingDtoReading;
+import com.example.hotel_app.dto.BookingDtoWriter;
 
 import java.util.List;
 

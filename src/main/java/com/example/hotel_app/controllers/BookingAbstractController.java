@@ -1,7 +1,7 @@
 package com.example.hotel_app.controllers;
 
-import com.example.hotel_app.DTO.BookingDtoReading;
-import com.example.hotel_app.DTO.BookingDtoWriter;
+import com.example.hotel_app.dto.BookingDtoReading;
+import com.example.hotel_app.dto.BookingDtoWriter;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

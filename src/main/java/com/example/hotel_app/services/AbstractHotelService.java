@@ -1,8 +1,8 @@
 package com.example.hotel_app.services;
 
-import com.example.hotel_app.DTO.DtoForPagination;
-import com.example.hotel_app.DTO.HotelDTOForReading;
-import com.example.hotel_app.DTO.HotelDTOForWriting;
+import com.example.hotel_app.dto.DtoForPagination;
+import com.example.hotel_app.dto.HotelDTOForReading;
+import com.example.hotel_app.dto.HotelDTOForWriting;
 
 import java.util.List;
 

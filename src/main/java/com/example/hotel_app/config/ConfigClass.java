@@ -1,9 +1,9 @@
 package com.example.hotel_app.config;
 
-import com.example.hotel_app.DTOconverter.BookingMapper;
-import com.example.hotel_app.DTOconverter.HotelMapper;
-import com.example.hotel_app.DTOconverter.RoomMapper;
-import com.example.hotel_app.DTOconverter.UserMapper;
+import com.example.hotel_app.dtoConverter.BookingMapper;
+import com.example.hotel_app.dtoConverter.HotelMapper;
+import com.example.hotel_app.dtoConverter.RoomMapper;
+import com.example.hotel_app.dtoConverter.UserMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

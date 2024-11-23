@@ -40,7 +40,6 @@ public class DbSetter implements CommandLineRunner {
         createDefaultUsers();
     }
 
-    @Transactional
     private void createDefaultUsers() {
         AppUser admin = new AppUser();
         admin.setRole(UserRoles.ROLE_ADMIN);

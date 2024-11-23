@@ -1,9 +1,8 @@
-package com.example.hotel_app.DTOconverter;
+package com.example.hotel_app.dtoConverter;
 
-import com.example.hotel_app.DTO.HotelDTOForReading;
-import com.example.hotel_app.DTO.HotelDTOForWriting;
-import com.example.hotel_app.DTO.RoomDtoReading;
-import com.example.hotel_app.model.Booking;
+import com.example.hotel_app.dto.HotelDTOForReading;
+import com.example.hotel_app.dto.HotelDTOForWriting;
+import com.example.hotel_app.dto.RoomDtoReading;
 import com.example.hotel_app.model.Hotel;
 import com.example.hotel_app.model.Room;
 import org.mapstruct.Context;

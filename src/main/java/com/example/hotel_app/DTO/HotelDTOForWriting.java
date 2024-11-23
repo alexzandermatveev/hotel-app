@@ -1,4 +1,4 @@
-package com.example.hotel_app.DTO;
+package com.example.hotel_app.dto;
 
 import lombok.*;
 

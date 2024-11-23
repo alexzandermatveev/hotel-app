@@ -1,9 +1,8 @@
-package com.example.hotel_app.DTOconverter;
+package com.example.hotel_app.dtoConverter;
 
-import com.example.hotel_app.DTO.RoomDtoReading;
-import com.example.hotel_app.DTO.RoomDtoWriting;
+import com.example.hotel_app.dto.RoomDtoReading;
+import com.example.hotel_app.dto.RoomDtoWriting;
 import com.example.hotel_app.exceptions.HotelNotFound;
-import com.example.hotel_app.model.Booking;
 import com.example.hotel_app.model.Hotel;
 import com.example.hotel_app.model.Room;
 import com.example.hotel_app.repository.HotelRepository;

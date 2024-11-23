@@ -17,16 +17,19 @@ import java.util.Date;
 public class Booking {
 
     @Id
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "enter_date")
     private Date enterDate;
+    @Column(name = "exit_date")
     private Date exitDate;
 
     @ManyToOne
-    @JoinColumn(nullable = false)
+    @JoinColumn(nullable = false, name = "room")
     private Room room;
 
     @ManyToOne
-    @JoinColumn(nullable = false)
+    @JoinColumn(nullable = false, name = "user")
     private AppUser user;
 }

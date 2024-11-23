@@ -8,6 +8,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.util.Date;
 
@@ -23,8 +24,9 @@ public class UserRegistrationEvent {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
-
+    @Field(name = "username")
     private String username;
+    @Field(name = "timestamp")
     private Date timestamp;
 
 }

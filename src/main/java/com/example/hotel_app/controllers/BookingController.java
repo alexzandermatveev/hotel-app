@@ -1,7 +1,7 @@
 package com.example.hotel_app.controllers;
 
-import com.example.hotel_app.DTO.BookingDtoReading;
-import com.example.hotel_app.DTO.BookingDtoWriter;
+import com.example.hotel_app.dto.BookingDtoReading;
+import com.example.hotel_app.dto.BookingDtoWriter;
 import com.example.hotel_app.services.BookingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -1,8 +1,8 @@
 package com.example.hotel_app.services;
 
-import com.example.hotel_app.DTO.UserDtoReading;
-import com.example.hotel_app.DTO.UserDtoWriting;
-import com.example.hotel_app.DTOconverter.UserMapper;
+import com.example.hotel_app.dto.UserDtoReading;
+import com.example.hotel_app.dto.UserDtoWriting;
+import com.example.hotel_app.dtoConverter.UserMapper;
 import com.example.hotel_app.exceptions.UserNotFound;
 import com.example.hotel_app.model.AppUser;
 import com.example.hotel_app.model.UserRegistrationEvent;
